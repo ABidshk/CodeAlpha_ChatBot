@@ -6,6 +6,7 @@ nltk.download('punkt')
 nltk.download('wordnet')
 
 # Define chatbot responses
+#we can add training data according to our domain
 pairs = [
     (r'hi|hello|hey', ['Hello!', 'Hi there!', 'Hey!']),
     (r'how are you ?', ['I am fine, thank you. How are you?', 'Doing well, how about you?']),
